@@ -1,0 +1,28 @@
+{
+  "scenarioLength": 5,
+  "vehicleLength": 9,
+  "scenarios": [
+    {
+      "id": 5,
+      "name": "new scenario",
+      "time": 20,
+      "vehicles": [
+        {
+          "id": 9,
+          "name": "SASASA",
+          "positionX": "1000",
+          "positionY": "100",
+          "speed": 2,
+          "direction": "front",
+          "scenarioId": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "new name",
+      "time": "2",
+      "vehicles": []
+    }
+  ]
+}

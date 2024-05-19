@@ -1,0 +1,132 @@
+.home-container {
+    box-sizing: border-box;
+    padding: 20px 40px;
+    width: 100%;
+}
+.select-scenario{
+    width:200px
+}
+.select-scenario label {
+    color: white;
+ 
+}
+.select-scenario select {
+    margin-top: 10px;
+    width: 220px;
+    height: 40px;
+    background-color: rgb(30, 29, 29);
+    color: white;
+    border-radius:5px;
+    padding: 0px 10px;
+}
+.game-board {
+    top: 20px;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    border: 2px solid black;
+    margin-top: 20px;
+    overflow: hidden;
+    background-image: linear-gradient(to right, gray 1px, transparent 1px), linear-gradient(to bottom, green 1px, transparent 1px);
+    background-size: 50px 50px;
+   
+}
+
+.vehicle {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    padding: 5px;
+    background-color: rgb(167, 51, 51);
+    /* border: 1px solid blue; */
+    border-radius: 100%;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.controls {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.vehicle-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.vehicle-table th,
+.vehicle-table td {
+    background-color: white;
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 13px 10px;
+}
+.vehicle-table td input, 
+.vehicle-table td select{
+    height: 30px !important;
+    padding: 0px 5px;
+}
+.vehicle-table th {
+    background-color: rgb(87, 86, 86);
+    color: white;
+    text-align: center;
+    border : 1px solid rgb(87, 86, 86);
+    padding: 13px 10px;
+}
+
+.vehicle-container {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+.vehicle-container h2 {
+    color: white;
+}
+.vehicle-container .vehiclee-form{
+    background-color: rgb(87, 86, 86);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 5px;
+}
+.vehicle-container .vehiclee-form > div {
+    width: 30%;
+}
+.vehicle-container .vehiclee-form > div > label {
+    margin-bottom: 5px;
+    color: white;
+}
+.vehicle-container .vehiclee-form select,
+.vehicle-container .vehiclee-form input{
+    color: white;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(30, 29, 29);
+    color: white;
+}
+.home-container .controls button,
+.vehicle-container .vehicle-btns button {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 15px;
+    color: white;
+    font-weight: 1000;
+}
