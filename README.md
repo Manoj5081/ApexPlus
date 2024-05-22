@@ -11,7 +11,7 @@ Extraction & Running:
             4.After successfull installations type "npm start" command to run the frontend and backend.
 Explanation:
            As per the requirements we have four sections
-             1.Add Scenario-Here we can give vehicle scenario as move forward/backward/towars/backward and how much time it has to take.
+             1.Add Scenario-Here we can give vehicle scenario as move forward/backward/upwards/downwards and how much time it has to take.
              2.All Scenarios-After successfully adding scenario,We can able to see all the added scenarios here,We used to get requests to fetch all the scenarios.
              3.Add Vehicle-Here we can add vehicle for respective Scenario.
              4.Home-Here we do the simulation for the respective scenario.
